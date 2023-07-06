@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+body { 
+    background-color: #76889a;
+    font-size: 14px;
+    line-height: 22px;
+    color: #555;
+}
+
+ .container {
+width: 800px;
+height: auto;
+display: flex;
+margin: 50px auto;
+
+ }
+ .Container .box-left {
+    width: 280px;
+    background-color: #333051;
+ }
+ .Container .box-left .profile {
+    width: 100%;
+    height: 280px;
+    background-color: #7d2f2f;
+ }
+.Container .box-left .profile img{
+    width: 100%;
+    height: 100%;
+}
+img.pequeña{
+    width: 180px;
+    height: 180px;
+    top: auto;
+
+}
+    .container .box-left .content {
+        padding: 0 25px;
+    }
+
+    .Container .resume-item {
+        padding: 25px 0;
+        border-bottom: 2px solid #5068925e;
+    }
+    .Container.title {
+        margin-bottom: 20px;  
+    }
+    .Container .box-left .bold {
+        color: #fff;
+    }
+    .container .box-left .regular {
+        color: #d9e1e4;
+    }
+    .bold {
+        font-weight: 700;
+        font-size: 28px;
+        text-transform: uppercase;
+    }
+    .container .box-left ul li {
+        display: flex;
+        margin-bottom: 10px;
+        align-items: center;
+    }
+    .Container .box-left ul li:last-child {
+        margin-bottom: 0;
+    }
+    .Container .box-left ul li .icon {
+        width: 35px;
+        height: 35px;
+        background-color: #fff;
+        color: #353e4e;
+        border-radius: 50%;
+        margin-right: 15px;
+        font-size: 16px;
+        position: relative;
+    }
+    .container .box-left ul li .data {
+        color: #d9e1e4;
+    }
+    .container .box-left .resume-Habilidades ul li {
+        display: flex;
+    margin-bottom: 10px;
+     color: #d9e114;
+     justify-content: space-between;
+     align-items: center;
+
+    }
+    .container .box-left .resume-Habilidades ul li .Personales-name {
+        width: 25%;
+    }
+    .container .box-left .resume-Habilidades ul li .Habilidades-progress {
+        width: 60%;
+        margin: 0 5px;
+        height: 5px;
+        background-color: #ff5c5c;
+        position: relative;
+    }
+    .container .box-left .resume-Habilidades ul li .Habilidades-progress span {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        background-color: #fff;
+    }
+    .container .box-left .resume-Habilidades ul li .Habilidades-parcent {
+        width: 15%;
+
+    }
+    .container .box-left .resume-referencias .semi-bold {
+        color: #fff;
+        margin-bottom: 3px;
+    }
+    .semi-bold{
+        font-weight: 500;
+        font-size: 16px;
+    }
+    /* right design */
+
+    .container .box-right {
+        width: 520px;
+        background-color: #fff;
+        padding: 25px;
+    }
+,.Container.box-left.resume-item:last-child,
+.container.box-right.resume-item:last-child{
+    border-bottom: 0px;
+}
+.container.box-right.bold{
+    color: #333e51;
+}
+.container.box-right ul li {
+    position: relative;
+}
+.container.box-right ul li .date {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}.container.box-right ul li .info {
+    margin-bottom: 20px;
+}
+.container.box-right ul li:last-child .info{
+    margin-bottom: o;
+}
+.container.box-right.resume-Experiencia ul,
+.container.box-right.resume-Educacion ul {
+padding-left: 40px;
+overflow: hidden;
+}
+.container.box-right.resume-Experiencia ul li::before,
+.container.box-right.resume-Educacion ul li::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -25;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 2px solid #333e51;
+}
+.container.box-right.resume-Experiencia ul li::after,
+.container.box-right.resume-Educacion ul li::after{
+content: "";
+position: absolute;
+background-color: #333e51;
+top: 14px;
+left: -21px;
+width: 2px;
+height: 115px;
+}
+
+    
